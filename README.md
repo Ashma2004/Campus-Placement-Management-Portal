@@ -28,9 +28,6 @@ It enables *students to register, upload resumes, and track applications, while 
 ## How to Run Locally
 
 1. Clone the repository:  
-```bash
 git clone https://github.com/Ashma2004/Campus-Placement-Management-Portal.git
-
-1. Clone the repository:  
 ```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
