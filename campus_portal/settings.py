@@ -75,12 +75,8 @@ WSGI_APPLICATION = 'campus_portal.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',  # Use MySQL
-        'NAME': 'campus_db',                   # Your MySQL database name
-        'USER': 'root',                        # MySQL username
-        'PASSWORD': 'ashma',           # Your MySQL password
-        'HOST': 'localhost',                   # Host
-        'PORT': '3306',                        # Default MySQL port
+        'ENGINE': 'django.db.backends.sqlite3',  # Use SQLit
+        'NAME': BASE_DIR / 'db.sqlite3',                   # Your MySQL database name                     # Default MySQL port
     }
 }
 
