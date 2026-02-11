@@ -141,6 +141,7 @@ from .models import Drive, Application
 def post_drives(request):
     if request.method == "POST":
         Drive.objects.create(
+            
             company_name=request.POST.get('company_name'),
             eligibility=request.POST.get('eligibility'),
             eligible_branches=",".join(request.POST.getlist('branches[]')),
